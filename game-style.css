@@ -1,0 +1,100 @@
+.rules {
+    box-sizing: border-box;
+}
+.rules #rule-box{
+    background-color: #121213;
+    font-family: "Libre Franklin";
+    color: white;
+    padding: 2em;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    width: 400px;
+    position: absolute;
+    top: 50px;
+}
+.rules #rule-box button{
+    background-color: transparent;
+    border: 2px solid #121213;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: -10px;
+    left: 380px;
+}
+.rules #rule-box #how-to-play{
+    font-family: "Bevan";
+    font-size: 1.5em; 
+    margin: auto;
+    margin-top: 1em;
+}
+.rules #rule-box #guess-text{
+    margin: auto;
+    font-size: 18px;
+}
+.rules #rule-box ul{
+    padding-left: 1em;
+    margin-top: 1em;
+}
+.rules #rule-box #example-text{
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 0;
+}
+.rules #rule-box #first-letter{
+    margin-top: 0.5em;
+    margin-bottom: 0.7em;
+}
+.rules #rule-box #first-letter::first-letter{
+    font-weight: bold;
+}
+.rules #rule-box #example-1, .rules #rule-box #example-2, .rules #rule-box #example-3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+.rules #rule-box #example-1 p, .rules #rule-box #example-2 p, .rules #rule-box #example-3 p{
+    border: 2px solid #4e4e4e;
+    box-shadow: 0 4px 23px 0 #2c2c2c;
+    font-weight: bold;
+    font-size: 18px;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5em;
+    margin-bottom: 0.1em;
+}
+.rules #rule-box #example-1 #change-box{
+    background-color: #538d4e;
+    border: 3px solid #538d4e;
+}
+.rules #rule-box #example-2 #change-box{
+    background-color: #b59f3b;
+    border: 3px solid #b59f3b;
+}
+.rules #rule-box #example-3 #change-box{
+    background-color: #3a3a3c;
+    border: 3px solid #3a3a3c;
+}
+.game{
+    background-color: #121213;
+}
+input{
+    background-color: #121213;
+    border: 2px solid #4e4e4e;
+    color: white;
+    font-size: 35px;
+    resize: both;
+    padding: 0.2em;
+    margin: 0.1em;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+}
+.game #game-board div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

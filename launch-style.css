@@ -1,0 +1,57 @@
+body{
+    background-color: #e3e3e1;
+    text-align: center;
+    font-family: "Bevan", serif;
+}
+.container{
+    margin-top: 10em;
+}
+.container h1{
+    font-size: 3em;
+    font-weight: 100;
+    margin: 0.1em;
+}
+.container p{
+    font-family: "Libre Franklin";
+    font-weight: 400;
+    font-size: 34.8px;
+    margin: 0.1em;
+}
+.container img{
+    width: 5em;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.buttons button{
+    margin: .2em;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 2em;
+    width: 155px;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #e3e3e1;
+ 
+}
+.buttons #play{
+    background-color: black;
+    color: white;
+}
+.credits{
+    font-family: "Libre Franklin";
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+.credits #p1{
+    font-weight: 550;
+}
+.credits p{
+    margin: 0;
+}
